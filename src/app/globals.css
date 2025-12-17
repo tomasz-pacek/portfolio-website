@@ -130,3 +130,34 @@
     @apply after:bg-foreground relative cursor-pointer after:absolute after:-bottom-0.5 after:left-1/2 after:h-0.5 after:w-full after:origin-center after:-translate-x-1/2 after:scale-x-0 after:rounded-full after:transition-transform after:duration-300 hover:after:scale-x-100;
   }
 }
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+  border-radius: 9999px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  border-radius: 9999px;
+  background: var(--color-sidebar-border);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-sidebar-ring);
+}
+
+::-webkit-scrollbar-button {
+  display: none;
+}
+
+::-webkit-resizer {
+  display: none;
+}

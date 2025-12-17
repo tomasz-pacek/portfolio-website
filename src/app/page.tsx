@@ -59,7 +59,7 @@ export default function Page() {
             from={{ opacity: 0, y: 40 }}
             to={{ opacity: 1, y: 0 }}
             duration={2}
-            className="text-6xl tracking-tight whitespace-nowrap select-none max-sm:text-4xl"
+            className="text-shadow-foreground text-6xl tracking-tight whitespace-nowrap select-none text-shadow-md max-sm:text-4xl"
           />
           <SplitText
             text="Full-Stack Developer"
@@ -68,7 +68,7 @@ export default function Page() {
             from={{ opacity: 0, y: 40 }}
             to={{ opacity: 1, y: 0 }}
             duration={2}
-            className="text-6xl tracking-tight whitespace-nowrap select-none max-sm:text-4xl"
+            className="text-shadow-foreground text-6xl tracking-tight whitespace-nowrap select-none text-shadow-md max-sm:text-4xl"
           />
           <p
             ref={paragraphRef}
@@ -88,7 +88,7 @@ export default function Page() {
               Projects
             </Link>
             <Link
-              href={"/#projects"}
+              href={"/#contact"}
               className="text-foreground from-chart-5 to-primary rounded-full bg-linear-to-tl px-8 py-2 text-base font-medium transition-all duration-300 hover:translate-y-0.5"
             >
               Contact
@@ -101,12 +101,14 @@ export default function Page() {
           >
             <Link
               href={"https://github.com/tomasz-pacek"}
+              target="_blank"
               className="rounded-full bg-zinc-900 p-2"
             >
               <FaGithub className="size-6 text-zinc-300" />
             </Link>
             <Link
               href={"https://www.linkedin.com/in/tomasz-pacek-32699926a/"}
+              target="_blank"
               className="rounded-full bg-zinc-900 p-2"
             >
               <BiLogoLinkedin className="size-6 text-zinc-300" />
