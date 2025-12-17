@@ -1,0 +1,17 @@
+[
+  {
+    "id": 1,
+    "icon": "FaGithub",
+    "link": "https://github.com/tomasz-pacek"
+  },
+  {
+    "id": 2,
+    "icon": "FaLinkedin",
+    "link": "https://www.linkedin.com/in/tomasz-pacek-32699926a/"
+  },
+  {
+    "id": 3,
+    "icon": "MdMailOutline",
+    "link": "mailto:tomekpacek@o2.pl"
+  }
+]
