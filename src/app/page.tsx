@@ -1,6 +1,6 @@
 "use client";
 
-import AboutPage from "@/components/about";
+import AboutPage from "@/components/(about)/about";
 import DarkVeil from "@/components/DarkVeil";
 import SplitText from "@/components/SplitText";
 import gsap from "gsap";
@@ -10,6 +10,8 @@ import { useEffect, useRef } from "react";
 import { FaGithub } from "react-icons/fa";
 import { MdMailOutline } from "react-icons/md";
 import { BiLogoLinkedin } from "react-icons/bi";
+import ProjectsPage from "@/components/(projects)/projects";
+import BackToTopButton from "@/components/back-to-top-button";
 
 const jetBrainsMono = JetBrains_Mono({
   subsets: ["latin"],
@@ -121,8 +123,10 @@ export default function Page() {
             </Link>
           </div>
         </div>
+        <BackToTopButton />
       </div>
       <AboutPage />
+      <ProjectsPage />
     </>
   );
 }
